@@ -1,0 +1,50 @@
+
+
+.ptext{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textbg{
+    background-color: #313435;
+    color: #fff;
+    padding: 20px;
+}
+.pimg1{
+    background-image: url("https://i.pinimg.com/originals/e5/9a/c2/e59ac2b742698adf2d3e4a4cc1d6270a.jpg");
+    min-height: 610px;
+}
+.pimg2{
+    background-image: url("https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto,w_1316/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1621571753%2Fzgdvdnr9buyllo7glfef.jpg");
+    min-height: 500px;
+}
+.pimg3{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Leh%2C_Mountain_view_in_the_evening%2C_Ladakh%2C_India.jpg/800px-Leh%2C_Mountain_view_in_the_evening%2C_Ladakh%2C_India.jpg?20230305220909");
+    min-height: 500px ;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background-color: #f4f4f4;
+    color: #666;
+}
